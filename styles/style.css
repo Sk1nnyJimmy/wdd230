@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yanone+Kaffeesatz&display=swap');
+
+:root {
+    --primary-color: #06aed5   ;
+    --secondary-color: #086788 ;
+    --accent1-color: #f0c808;
+    --accent2-color: #dd1c1a;
+  
+    --heading-font: "Bebas Neue";
+    --paragraph-font: "Yanone Kaffeesatz", Helvetica, sans-serif;
+  
+
+    --headline-color-on-white: #06aed5; 
+    --headline-color-on-color: white; 
+    --paragraph-color-on-white: #06aed5; 
+    --paragraph-color-on-color: white; 
+    --paragraph-background-color: #06aed5  ;
+    --nav-link-color: #396E94;
+    --nav-background-color: #f0c808;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #086788;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: white;
+    font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #086788;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.profile {
+    display:inline-block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#lesson_list {
+    margin-top: 50px;
+    text-align: center;
+}
+
+ul {
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #086788;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
